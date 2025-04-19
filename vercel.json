@@ -1,0 +1,35 @@
+{
+  "github": {
+    "silent": true
+  },
+  "buildCommand": "npm run build",
+  "installCommand": "npm install",
+  "framework": "nextjs",
+  "outputDirectory": ".next",
+  "env": {
+    "NEXTAUTH_URL": {
+      "type": "string",
+      "required": true
+    },
+    "NEXTAUTH_SECRET": {
+      "type": "string",
+      "required": true
+    },
+    "GOOGLE_CLIENT_ID": {
+      "type": "string",
+      "required": true
+    },
+    "GOOGLE_CLIENT_SECRET": {
+      "type": "string",
+      "required": true
+    },
+    "OPENWEATHER_API_KEY": {
+      "type": "string",
+      "required": false
+    },
+    "GOOGLE_MAPS_API_KEY": {
+      "type": "string",
+      "required": false
+    }
+  }
+}

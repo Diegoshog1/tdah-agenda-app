@@ -1,0 +1,7 @@
+// Habilitar o banco de dados D1 no wrangler.toml
+// Remova os comentários das linhas abaixo para ativar o banco de dados
+
+[[d1_databases]]
+binding = "DB"                # Nome da variável de ambiente
+database_name = "tdah_agenda_db"    # Nome do banco de dados
+database_id = "local"         # ID para desenvolvimento local
